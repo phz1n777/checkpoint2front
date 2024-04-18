@@ -1,0 +1,187 @@
+/* CSS MENU */
+
+.botao-menu {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 1em;
+    z-index: 1;
+    top: 120%;
+    right: 0%;
+}
+
+.botao-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+.botao-menu-linha {
+    border-bottom: 1px solid #e4dfdf;
+    margin: -20px 0 0 0;
+    width: 80%;
+}
+
+.abrir {display: block;}
+
+/* CSS GALERIA */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Circular, system-ui, -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+}
+
+.flex {
+    display: flex;
+}
+
+.alinhar {
+    align-items: center;
+}
+
+.espaco {
+    justify-content: space-between;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+.botoes {
+    align-items: center;
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+}
+
+.botoes a {
+    color: black;
+}
+
+/* Imagens */
+#imagens {
+    margin-top: 2rem;
+    border: 0;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#imagem1 {
+    width: 560px;
+    height: 401.6px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    object-fit: cover;
+}
+
+.imagens-cima {
+    width: 272px;
+    height: 200.8px;
+    margin: 0 0 8px 8px;
+    object-fit: cover;
+}
+
+.imagens-baixo {
+    width: 272px;
+    height: 192.8px;
+    margin: 0 0 8px 8px;
+    object-fit: cover;
+}
+
+#imagem4 {
+    border-top-right-radius: 15px;
+}
+
+#imagem5 {
+    border-bottom-right-radius: 15px;
+}
+
+/* Edu: Galeria */
+#lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+#lightbox img {
+    max-width: 80%;
+    max-height: 60vh;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+#fechar-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#voltar-btn,
+#passar-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#voltar-btn {
+    left: 10px;
+}
+
+#passar-btn {
+    right: 10px;
+}
+
+#voltar-btn:hover,
+#passar-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.thumbnail-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.thumbnail {
+    max-width: 50px;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #fff;
+    transition: opacity 0.3s;
+}
+
+.thumbnail:hover,
+.thumbnail.active-thumbnail {
+    opacity: 0.7;
+}
+
