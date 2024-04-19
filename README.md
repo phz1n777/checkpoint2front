@@ -1,4 +1,4 @@
-# checkpoint2front
+# Integrantes
 
 Pedro Henrique Assunção Lima RM552746
 #
