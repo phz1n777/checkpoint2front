@@ -15,16 +15,21 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    flex-wrap: wrap;    
+    /* flex-wrap: wrap; */
+    align-items: center;    
 }
 
 .cabecalho ul {
     list-style: none;
     display: flex; 
     align-items: center;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
 }
 
+.logo-menor {
+    color: #ff385c;
+    display: none;
+}
 .espacamento {
     margin-right: 25px;
 }
@@ -67,7 +72,7 @@ header {
 
 .botao-header-1 {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     cursor: pointer;
     background-color: #ffffff;
@@ -95,7 +100,7 @@ header {
 
 .botao-header-3 {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     cursor: pointer;
     background-color: #ffffff;
@@ -1105,4 +1110,18 @@ div .escrita p {
         align-items: center;
         width: 730px;
     }
+    header nav img {
+        display: none;
+    }
+    .logo-menor {
+        margin: 0px 20px 0px 0px;
+        padding: 0px 10px 0px 0px;
+        display: block !important;
+    }
+}
+@media screen and (min-width:769px) {
+    .logo-menor{
+        display: none;
+    }
+    
 }
