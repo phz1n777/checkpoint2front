@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     font-family: "Nunito Sans";
 }
 
@@ -905,6 +905,7 @@ div .escrita p {
 
 .footer {
     background-color: #f2f2f2;
+    overflow: hidden;
 }
 
 .footer-div-posicao {
