@@ -35,10 +35,10 @@
     padding: 0;
     font-family: Circular, system-ui, -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     color: #222222;
 }
-
+/* 
 .flex {
     display: flex;
 }
@@ -64,10 +64,10 @@
 
 .botoes a {
     color: black;
-}
+} */
 
 /* Imagens */
-#imagens {
+/* #imagens {
     margin-top: 2rem;
     border: 0;
     border-radius: 10px;
@@ -102,10 +102,10 @@
 
 #imagem5 {
     border-bottom-right-radius: 15px;
-}
+} */
 
 /* Edu: Galeria */
-#lightbox {
+/* #lightbox {
     display: none;
     position: fixed;
     top: 0;
@@ -184,4 +184,4 @@
 .thumbnail.active-thumbnail {
     opacity: 0.7;
 }
-
+ */
